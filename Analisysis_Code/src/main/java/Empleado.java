@@ -56,4 +56,20 @@ public class Empleado  extends  Empresa {
         }
 
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getNombreEmpleado() {
+        return nombreEmpleado;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public String getRole() {
+        return role;
+    }
 }
