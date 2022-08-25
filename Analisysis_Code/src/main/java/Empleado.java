@@ -53,7 +53,8 @@ public class Empleado {
         return role;
     }
 
-    public void setRole(String role) {
+    public void setRole(String role)
+    {
 
         if (role.equalsIgnoreCase("administrador") || role.equalsIgnoreCase("operativo") )
         {
