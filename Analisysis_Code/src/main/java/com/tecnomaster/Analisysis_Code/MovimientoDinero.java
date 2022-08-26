@@ -1,3 +1,5 @@
+package com.tecnomaster.Analisysis_Code;
+
 public class MovimientoDinero {
     //Atributos
     private double monto;
@@ -52,7 +54,7 @@ public class MovimientoDinero {
 
     @java.lang.Override
     public java.lang.String toString() {
-        return "MovimientoDinero{" +
+        return "com.tecnomaster.Analisysis_Code.MovimientoDinero{" +
                 "monto=" + monto +
                 ", tipo=" + tipo +
                 ", conceptoMovimiento='" + conceptoMovimiento + '\'' +
