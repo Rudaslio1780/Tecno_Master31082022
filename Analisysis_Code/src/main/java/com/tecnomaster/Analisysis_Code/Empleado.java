@@ -1,3 +1,5 @@
+package com.tecnomaster.Analisysis_Code;
+
 public class Empleado {
     private  int id;
     private  String nombreEmpleado;

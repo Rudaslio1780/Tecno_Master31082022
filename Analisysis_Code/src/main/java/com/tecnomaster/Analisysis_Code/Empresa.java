@@ -1,3 +1,5 @@
+package com.tecnomaster.Analisysis_Code;
+
 public class Empresa {
     private String nombre;
     private String direccion;
