@@ -1,12 +1,12 @@
 public class MovimientoDinero {
     //Atributos
-    private int monto;
+    private double monto;
     private boolean tipo; //Donde False: Es un movimiento negativo y True: Es un movimiento positivo
     private String conceptoMovimiento;
     private Empleado usuario; // Usuario es un objeto de la clase empleado
 
     //Constructor
-    public MovimientoDinero(int monto, boolean tipo, String conceptoMovimiento, Empleado usuario) {
+    public MovimientoDinero(double monto, boolean tipo, String conceptoMovimiento, Empleado usuario) {
         this.monto = monto;
         this.tipo = tipo;
         this.conceptoMovimiento = conceptoMovimiento;
@@ -14,11 +14,11 @@ public class MovimientoDinero {
     }
     //Getter y Setters
 
-    public int getMonto() {
+    public double getMonto() {
         return monto;
     }
 
-    public void setMonto(int monto) {
+    public void setMonto(double monto) {
         this.monto = monto;
     }
 
@@ -56,7 +56,7 @@ public class MovimientoDinero {
                 "monto=" + monto +
                 ", tipo=" + tipo +
                 ", conceptoMovimiento='" + conceptoMovimiento + '\'' +
-                ", usuario=" + usuario +
+                ", usuario=" + usuario.getNombreEmpleado() +
                 '}';
     }
 }
