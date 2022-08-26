@@ -72,7 +72,11 @@ public class Main {
         System.out.println("El nuevo monto es de : "+din1.getMonto());
 
         //Es posible crear montos positivos y negativos
-        din1.tipoMonto();
+        System.out.println("Monto Actual: "+din1.getMonto());
+        din1.agregarMonto(-90);
+        System.out.println("Monto Actual: "+din1.getMonto());
+        din1.agregarMonto(1000);
+        System.out.println("Monto Actual: "+din1.getMonto());
 
         //Leer y modificar el concepto del Movimiento
         System.out.println("El tipo de movimiento es: "+din1.getConceptoMovimiento());
