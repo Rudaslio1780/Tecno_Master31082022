@@ -49,6 +49,9 @@ public class MovimientoDinero {
     public boolean isTipo() {
         return tipo;
     }
+    
+
+
 
     //Metodo toString
 
@@ -60,5 +63,7 @@ public class MovimientoDinero {
                 ", conceptoMovimiento='" + conceptoMovimiento + '\'' +
                 ", usuario=" + usuario.getNombreEmpleado() +
                 '}';
+
+  
     }
 }

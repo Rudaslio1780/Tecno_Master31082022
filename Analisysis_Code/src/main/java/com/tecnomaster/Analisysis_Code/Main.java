@@ -39,5 +39,45 @@ public class Main {
         System.out.println(emp1.getNombre());
         empleado.setRole("operativo8798");
         System.out.println("nuevo role:"+empleado.getRole());
+
+
+        //-------------------------------------------------------------------------------------------------------------------
+
+
+        //Pruebas Clase com.tecnomaster.Analisysis_Code.MovimientoDinero
+
+
+        //leer y modificar el Monto
+        MovimientoDinero din1 = new MovimientoDinero(10000, true, "consignacion", empleado);
+        System.out.println("El monto del movimiento es de: "+din1.getMonto());
+        din1.setMonto(15000);
+        System.out.println("El nuevo monto es de : "+din1.getMonto());
+
+        //Falta leer y modificar el tipo de movimiento
+
+        //leer y modificar el tipo de movimiento
+        System.out.println("El tipo de movimiento es: "+din1.getConceptoMovimiento());
+        din1.setConceptoMovimiento("Retiro");
+        System.out.println("el nuevo movimiento es: "+din1.getConceptoMovimiento());
+
+        //definir qué usuario fue encargado de registrar el movimiento
+        System.out.println("el usuario encargado del movimiento fue: "+empleado.getNombreEmpleado());
+
+        //Rol del usuario encargado del movimiento
+
+        System.out.println("el rol del usuario encargado del movimiento fue: "+empleado.getRole());
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
