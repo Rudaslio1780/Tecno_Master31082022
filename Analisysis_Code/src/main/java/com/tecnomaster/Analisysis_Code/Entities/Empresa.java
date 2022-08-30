@@ -1,4 +1,4 @@
-package com.tecnomaster.Analisysis_Code;
+package com.tecnomaster.Analisysis_Code.Entities;
 
 public class Empresa {
     private String nombre;
