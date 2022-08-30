@@ -1,4 +1,4 @@
-package com.tecnomaster.Analisysis_Code;
+package com.tecnomaster.Analisysis_Code.Entities;
 
 public class Empleado {
     private  int id;
